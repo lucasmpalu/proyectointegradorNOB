@@ -1,0 +1,318 @@
+@import url('https://fonts.google.com/specimen/Rubik+Mono+One')
+html {
+    10px
+
+}
+
+
+
+ body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+ }
+
+header {
+    width: 100%;
+    height: 14vh;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(85,18,18,1) 50%, rgba(0,0,0,1) 100%);
+    padding: 0%;
+    position: fixed;
+}
+
+nav {width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.link-header {
+color: white;
+}
+
+.box-img { width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.box-list-header { width: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    justify-content: flex-end;
+    
+}
+
+.header-tiendanewells {
+    height: 18%;
+    width: 25%;
+    margin-right: 5%;
+}
+.header-accion {
+    height: 25%;
+    margin-right: 4%
+}
+
+                
+.list-encabezado {
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+    
+}
+
+.li {
+    color: white;
+    margin: 0 1rem 0 1rem;
+}
+
+
+/*HASTA ACA NUESTRO HEADER*/
+/*HASTA ACA NUESTRO HEADER*/
+/*HASTA ACA NUESTRO HEADER*/
+
+main {
+    padding: 0px;
+}
+
+.box-main {
+    padding: 0%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    border: none;
+
+}
+
+.main-izquierdo {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,125,125,1) 50%, rgba(255,0,0,1) 100%);
+    height: 100%;
+    width: 33%;
+    border: 0px;
+}
+
+.main-central {
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(152,1,1,1) 50%, rgba(73,0,0,1) 100%);
+    height: 100%;
+    width: 34%;
+    border: 0px red;
+}
+
+.main-derecho {
+    background: linear-gradient(90deg, rgba(73,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+    height: 100%;
+    width: 33%;
+}
+
+
+
+/*SEGUNDA PARTE, MAIN 2*/
+/*SEGUNDA PARTE, MAIN 2*/
+/*SEGUNDA PARTE, MAIN 2*/
+
+.segundo-main {
+                background-color: black;
+                height: 130vh;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding: 0 0 0 0;
+}
+
+.barra-main2 {
+width: 97%;
+height: 20%;
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 52%, rgba(133,77,74,1) 81%, rgba(255,0,0,1) 97%);
+display: flex;
+margin: 1% 0 4%;
+animation-name: animacionbarra2;
+animation-duration: 4s;
+animation-delay: 10s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes animacionbarra2 {
+
+    from {
+        margin-left: 100%;
+        width: 70%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}
+
+ 
+
+.barra-main2-1 {
+    width: 30%;
+    height: 100%;
+}
+
+.barra-main2-2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.givova {
+ object-fit: cover;
+ width: 100%;
+ height: 100%;
+}
+
+.sponsors-main2 {
+    height: 40%;
+    width: 18%;
+    margin: 0 0 0 5%
+}
+
+.box-form {
+    height: 60%;
+    width: 50%;
+    background-color: rgb(210, 0, 0);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(138, 11, 11);
+    animation-name: animacionboxform;
+    animation-duration: 2s;
+    
+}
+
+
+
+.hacete-socio {
+    text-align: center;
+    
+}
+
+form { display: flex;
+    justify-content: center;
+    height: 100%
+    widht7: 100%;
+}
+
+.div-form {
+    padding-left: 2rem;
+    width: 50%;
+    object-fit: contain;
+    padding: 0%;
+}
+
+.div-img-form {
+    width: 40%;
+    background-image: url('escudoform.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  
+
+}
+
+
+
+input, button {
+    
+    border: none;
+    border-radius: 2rem;
+    height: 10%;
+    width: 80%;
+    box-shadow: 2px 2px 2px 2px;
+    margin-top: 3%;
+    background-color: rgb(226, 220, 213);
+}
+
+label {
+    font-size: medium;
+}
+
+.option {
+    height: 4%;
+    width: 4%;
+    box-shadow: none;
+}
+
+button {
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 2px 2px;
+    margin: 0 0 3% 0
+}
+
+h2 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: x-large;
+    text-shadow: 0 1px 1px rgb(168, 136, 136);
+
+}
+
+.div-separador-main2-main3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.div-separador-main2-main3-img {
+   
+width: 100%;
+
+}
+
+
+.tercer-main {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.tercer-main-box1 { height: 100%;
+    width: 20%;
+background-color: black;
+}
+.tercer-main-box2 {
+    height: 100%;
+    width: 80%;
+
+}
+.tercer-main-box2-1 {
+
+}
+
+.tercer-main-box2-1 {
+}
+
+
+
+/* Ejecuta estas condiciones CSS para resoluciones entre 1023 y 1280px*/
+@media (max-width: 700px){
+    
+	.list-encabezado { 
+       display: none;
+    }
+
+}
+
+@keyframes animacionboxform {
+
+    from {
+    
+        opacity: 0;
+        width: 0%;
+        rotate: (90);
+      }
+    
+      to {
+       opacity: 1;
+
+      }
